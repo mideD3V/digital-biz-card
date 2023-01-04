@@ -1,3 +1,47 @@
 *{
     margin: 0;
 }
+.header{
+    width: 100%;
+    margin: 0rem auto;
+}
+
+h2{
+color: white;
+text-align: center;
+}
+#description{
+    text-align: center;
+    color: rgb(239, 159, 84);
+}
+.location{
+    color: rgb(165, 161, 161);
+}
+
+img{
+    width: 100%;
+}
+
+.socials_btn{
+    text-align: center;
+    margin: 1rem auto;
+}
+
+#email_btn{
+    padding: .2rem .75rem;
+    border-radius: 3px;
+    border: none;
+    margin: 0 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#linkedin_btn{
+    background-color: rgba(11, 11, 135, 0.514);
+    color: white;
+    padding: .5rem .75rem;
+    border-radius: 3px;
+    border: none;
+    margin: 0 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
