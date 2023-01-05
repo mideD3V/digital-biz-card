@@ -20,7 +20,7 @@ const Header = () => {
             <AiTwotoneMail />{" "}
           </span>{" "}
           Email
-        </button>
+        </button> 
 
         <button id='linkedin_btn'>
           {" "}

@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 .header{
     width: 100%;
@@ -13,13 +14,17 @@ text-align: center;
 #description{
     text-align: center;
     color: rgb(239, 159, 84);
+    margin: 0;
 }
 .location{
     color: rgb(165, 161, 161);
+    text-align: center;
+    margin: 0;
 }
 
 img{
     width: 100%;
+    border-radius: .5rem .5rem 0 0;
 }
 
 .socials_btn{
@@ -28,20 +33,32 @@ img{
 }
 
 #email_btn{
-    padding: .2rem .75rem;
+    color: black;
+    background-color: white;
+    padding: .5rem 1.75rem;
     border-radius: 3px;
     border: none;
-    margin: 0 3px;
-    font-size: 1rem;
+    margin: 0 5px;
+    font-size: 1.1rem;
     cursor: pointer;
+}
+#email_btn:hover{
+    color: white;
+    background-color:  black;
+    padding: .75rem 2.5rem;
 }
 #linkedin_btn{
     background-color: rgba(11, 11, 135, 0.514);
     color: white;
-    padding: .5rem .75rem;
+    padding: .75rem 2.5rem;
     border-radius: 3px;
     border: none;
-    margin: 0 3px;
-    font-size: 1rem;
+    margin: 0 5px;
+    font-size: 1.1rem;
     cursor: pointer;
+}
+#linkedin_btn:hover{
+    color: blue;
+    background-color: white;
+    padding: .75rem 2.5rem;
 }
