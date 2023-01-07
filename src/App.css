@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
@@ -11,12 +12,14 @@ width: 100%;
   font-family: 'Poppins', sans-serif;
 }
 .App{
-    background-color: rgb(8, 8, 36);
+    background-color: rgba(8, 8, 36, .5);
+    background-image: linear-gradient(to top, rgba(1, 8, 3, 0.75), rgba(5, 5, 61, 1) ), url(./asset/Web_development.png);
+    background-position: center;
+    background-size: cover;
     width: 50%;
     margin: 1.5rem auto 0;
     border-radius: 0.5rem;
 }
-
 @media screen and (max-width:600px){
 
   .App{
