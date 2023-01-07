@@ -12,8 +12,11 @@ h2{
 color: white;
 text-align: center;
 margin-top: 1rem;
+
 }
 #description{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2rem;
     text-align: center;
     color: rgb(239, 159, 84);
     margin: 0;
@@ -42,18 +45,27 @@ img{
         transform: translateX(-0%);
     }
     30%{
-        transform: translateX(-35%);
-    }
-    50%{
         transform: translateX(-50%);
     }
+    40%{
+        transform: translateX(-50%);
+    }
+    50%{
+        transform: translateX(-80%);
+    }
 
+    65%{
+        transform: translateX(-120%);
+    }
     75%{
-        transform: translateX(-100%);
+        transform: translateX(-150%);
     }
     
+    90%{
+        transform: translateX(-175%);
+    }
     100%{
-        transform: translateX(-150%);
+        transform: translateX(-185%);
     }
 }
 
@@ -97,4 +109,31 @@ img{
 button a{
     text-decoration: none;
     
+}
+
+
+@media screen and (max-width:600px){
+@keyframes slide {
+    0%{
+        transform: translateX(-5%);
+    }
+    25%{
+        transform: translateX(-0%);
+    }
+    
+    50%{
+        transform: translateX(-100%);
+    }
+
+    70%{
+        transform: translateX(-200%);
+    }
+    
+    85%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-357%);
+    }
+}
 }

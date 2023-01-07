@@ -3,11 +3,26 @@ import './about.css'
 
 const About = () => {
   return (
-      <div id='about'>
-          <h3>About</h3>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ducimus reiciendis nostrum quod deleniti fugit est quae debitis quaerat, vitae ipsam accusamus fugiat, amet rem. Laborum voluptatem omnis placeat corporis.</p>
+    <div id="about">
+      <h3>About</h3>
+      <p>
+        <span>
+          Ayomide Oke (aka <span id="description">Mide</span>) is a
+          creative Frontend Developer with about 2 years experience in
+          developing beautiful and responsive web apps using HTML, CSS, and
+          ReactJS.
+        </span>
+        <br />
+        <br />
+
+        <span>
+          I am solution-driven, detail-oriented, and passionate about working in
+          a highly collaborative work environment, finding solutions, and
+          determining customer satisfaction.
+        </span>
+      </p>
     </div>
-  )
+  );
 }
 
 export default About
