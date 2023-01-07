@@ -36,29 +36,24 @@ img{
 }
 @keyframes slide {
     0%{
-        transform: translateX(-10%);
+        transform: translateX(-5%);
     }
     25%{
         transform: translateX(-0%);
     }
     30%{
-        transform: translateX(-80%);
-    }
-    40%{
-        transform: translateX(-90%);
+        transform: translateX(-35%);
     }
     50%{
-        transform: translateX(-180%);
+        transform: translateX(-50%);
     }
-    60%{
-        transform: translateX(-190%);
-    }
+
     75%{
-        transform: translateX(-150%);
+        transform: translateX(-100%);
     }
     
     100%{
-        transform: translateX(-200%);
+        transform: translateX(-150%);
     }
 }
 
@@ -83,7 +78,7 @@ img{
 }
 
 #linkedin_btn {
-    background-color: rgba(54, 54, 216, 0.514);
+    background-color: rgb(54, 54, 216);
     color: white;
     padding: .5rem 1.75rem;
     border-radius: 3px;
@@ -103,4 +98,3 @@ button a{
     text-decoration: none;
     
 }
-
