@@ -7,7 +7,7 @@ import Mide4 from "../../asset/slyd4.jpg";
 import Mide5 from "../../asset/slyd5.jpg";
 import { AiTwotoneMail } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import Typical from 'react-typical'
+// import Typical from 'react-typical'
 import Typewriter from 'typewriter-effect'
 
 const Header = () => {
