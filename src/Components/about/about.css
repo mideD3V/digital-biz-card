@@ -12,3 +12,8 @@ p {
   font-size: .85rem;
   line-height: 2;
 }
+#nick{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.5rem;
+  color: rgb(239, 159, 84);
+}
