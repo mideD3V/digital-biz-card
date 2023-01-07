@@ -7,6 +7,8 @@ import Mide4 from "../../asset/slyd4.jpg";
 import Mide5 from "../../asset/slyd5.jpg";
 import { AiTwotoneMail } from "react-icons/ai";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect'
 
 const Header = () => {
   return (
@@ -20,7 +22,33 @@ const Header = () => {
       </div>
       <p></p>
       <h2>Ayomide Oke</h2>
-      <p id="description">Creative Front-End Developer</p>
+
+      <p id="description">
+
+        {/* <Typical
+          loop={3}
+          wrapper="b"
+          steps={["Creative Front-End Developer", 5000]}
+        /> */}
+        <Typewriter
+          onInit={(typewriter) => {
+            
+            typewriter
+              .typeString("I'm a Creative Frontend Developer")
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString("Welcome!")
+              .pauseFor(3000)
+              .deleteAll()
+              .typeString("Front-End Developer")
+              .start()
+          }
+
+          }
+        />
+
+      </p>
+
       <p className="location">Lagos, Nigeria</p>
 
       <div className="socials_btn">

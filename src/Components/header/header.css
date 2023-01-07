@@ -16,7 +16,7 @@ margin-top: 1rem;
 }
 #description{
     font-family: 'Kaushan Script', cursive;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     text-align: center;
     color: rgb(239, 159, 84);
     margin: 0;
@@ -52,10 +52,6 @@ img{
     }
     50%{
         transform: translateX(-80%);
-    }
-
-    65%{
-        transform: translateX(-120%);
     }
     75%{
         transform: translateX(-150%);
