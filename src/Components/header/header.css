@@ -5,11 +5,13 @@
 .header{
     width: 100%;
     margin: 0rem auto;
+    overflow: hidden;
 }
 
 h2{
 color: white;
 text-align: center;
+margin-top: 1rem;
 }
 #description{
     text-align: center;
@@ -21,10 +23,43 @@ text-align: center;
     text-align: center;
     margin: 0;
 }
-
 img{
-    width: 100%;
-    border-radius: .5rem .5rem 0 0;
+    width: 200%;
+    height: 50vh;
+}
+
+
+.wrapper{
+    display: flex;
+    
+    animation: slide 15s infinite;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(-10%);
+    }
+    25%{
+        transform: translateX(-0%);
+    }
+    30%{
+        transform: translateX(-80%);
+    }
+    40%{
+        transform: translateX(-90%);
+    }
+    50%{
+        transform: translateX(-180%);
+    }
+    60%{
+        transform: translateX(-190%);
+    }
+    75%{
+        transform: translateX(-150%);
+    }
+    
+    100%{
+        transform: translateX(-200%);
+    }
 }
 
 .socials_btn{
@@ -46,11 +81,9 @@ img{
     cursor: pointer;
     text-decoration: none;
 }
-#email_btn:hover{
-    
-}
+
 #linkedin_btn {
-    background-color: rgba(11, 11, 135, 0.514);
+    background-color: rgba(54, 54, 216, 0.514);
     color: white;
     padding: .5rem 1.75rem;
     border-radius: 3px;
@@ -70,3 +103,4 @@ button a{
     text-decoration: none;
     
 }
+
