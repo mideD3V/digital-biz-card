@@ -4,7 +4,12 @@
     height: 10rem;
     padding: 2rem;
 }
+h5{
+    color: antiquewhite;
+    text-align: center;
+}
 #footer ul{
+
     width: 100%;
     display: flex;
     justify-content: space-around;

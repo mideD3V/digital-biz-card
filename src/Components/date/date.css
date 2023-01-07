@@ -1,7 +1,7 @@
 .date p{
     color: rgb(238, 211, 211);
-    text-align: center;
+    text-align: right;
     width: 100%;
-    margin: 5rem auto 1rem;
+    margin: 5rem -2rem -4rem;
     font-size: 0.75rem;
 }
